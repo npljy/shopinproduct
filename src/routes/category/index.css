@@ -1,0 +1,319 @@
+.table-div{
+    color:#333;
+}
+
+input{
+    border-radius: 0px !important;
+}
+.red,.red a{
+    color: red !important;
+}
+
+.cate-div{
+    padding:20px 40px 20px 20px;
+}
+.cate-div .ant-table,.cate-div table{
+    font-size: 13px;
+    border-radius: 0;
+}
+.cate-div .ant-table-selection-column{
+    display: none;
+} 
+.move{
+    position: relative;
+    transition: none !important;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+}
+.move td{
+    display: inline-block;
+    box-sizing: border-box;
+    width:11%;
+    height: 51px;
+    border: none !important;
+    margin: 0;
+    padding: 0;
+}
+.move .ant-table-selection-column{
+    display: none;
+}
+.move:hover td{
+    background-color: grey !important;
+}
+.table-div .ant-input{
+    width: 100px;
+}
+.cate-ipt-div{
+    padding: 20px 0;
+}
+.cate-ipt{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+    vertical-align: bottom;
+    color: #333;
+}
+.cate-ipt input{
+    width:160px;
+    border-radius:none;
+}
+.add-one-level{
+    padding:20px 0;
+}
+.ant-modal{
+    position: relative;
+    padding-bottom: 0;
+    border-radius: 4px;
+}
+.ant-modal-content{
+    padding-bottom: 30px;
+}
+.fixed .ant-modal-content{
+    position: static;
+    padding-bottom: 50px;
+}
+.ant-modal-body div{
+    margin: 0 auto 10px;
+}
+.ant-modal-body .ant-btn-lg{
+    width: 180px;
+}
+.ant-modal-body span{
+    color: #333;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.ant-modal-body .txt{
+    padding-right: 10px;
+    vertical-align: top;
+    display: inline-block;
+
+}
+.gross-txt{
+    vertical-align: middle !important;
+}
+.fixed .ant-modal-footer .ant-btn-lg {
+    float: right;
+    margin-left: 30px;
+    transform: translateX(-406px);
+}
+.ant-radio-group{
+    margin-left: 8px !important;
+}
+.ant-radio-group label:first-child{
+    margin-right: 40px;
+}
+
+.ant-modal-footer .ant-btn-lg{
+    float: right;
+    margin-left: 30px;
+    transform: translateX(-180px)
+}
+.ant-modal-close-x{
+    visibility: hidden;
+}
+.fixed .ant-modal-footer{
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+    top: 591px;
+    left: 50%;
+    width: 1028px;
+    /* transform: translateX(-50%); */
+    margin-left: -514px;
+    background: #fff;
+    z-index: 10;
+}
+.add-none{
+    width: 48px;
+    display: inline-block;
+}
+
+button.add-one-btn{
+    width:114px;
+    height:30px;
+    line-height:30px;
+    color:#333;
+    font-size:13px;
+    -webkit-appearance: none !important;
+    border-radius: 0px;
+    background-color:rgba(242, 242, 242, 1);
+}
+.ant-tree-checkbox-checked .ant-tree-checkbox-inner, .ant-tree-checkbox-indeterminate .ant-tree-checkbox-inner,.ant-pagination-item-active,.ant-btn-primary{
+    background-color: rgba(0, 153, 204, 1);
+    border-color: rgba(0, 153, 204, 1);
+    color: #fff;;
+}
+.ThreeTrees{
+    height: 400px;
+    overflow: scroll;
+} 
+
+.text-center,th.text-first-center{
+    text-align: center !important;
+}
+.ant-modal-body{
+    padding: 20px 15% 0;
+}
+.tree-div::after{
+    content:'.';
+    display: block;
+    visibility: hidden;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    clear: both;
+}
+.ThreeTrees,.selected-tree-nodes{
+    width: 210px;
+    height:400px;
+    overflow:scroll;
+    float: left;
+    margin-top: 0 !important;
+    
+}
+.ThreeTrees{
+    margin-left: 88px !important;
+}
+.selected-tree-nodes{
+    margin-left: 40px !important;
+}
+.cate-val{
+    width:316px !important;
+}
+.gross-val{
+    width:410px !important;
+}
+.linked-category{
+    display: inline-block;
+    width: 216px;
+    text-align: center;
+    background-color: rgba(242, 242, 242, 1);
+}
+.linked-cate-div{
+    margin-bottom: 0 !important;
+}
+
+.table-height{
+    padding: 0 !important;
+    height: 50px !important;
+    text-indent: 1em;
+}
+.freight-table .ant-table-wrapper{
+    margin: 0 0 0 42px;
+    width:385px;
+    display: inline-block;
+    border-radius: 0;
+}
+.freight-table tr{
+    height: 30px;
+}
+.freight-table tr div{
+    margin: 0;
+}
+div.ant-spin-nested-loading,div.ant-table,div.ant-spin-container,div.ant-table-content,div.ant-table-body,div.ant-table-wrapper,div.ant-radio-group{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.move-btn span {
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    position: relative;
+}
+.move-btn strong{
+    font-size: 12px;
+    position: absolute;
+    top: -50%;
+    left: -80%;
+    width: 52px;
+    display: none;
+    white-space: nowrap;
+}
+.move-btn span:hover strong{
+    display: block;
+}
+.modal-div{
+    position: relative;
+}
+.frei-ipt{
+    position: relative;
+    -webkit-appearance: input !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 94px;
+    margin-left: 10px;
+}
+.frei-ipt:hover{
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.operate{
+    min-width:180px;
+}
+.operate span{
+    cursor:pointer;
+}
+.col-name,.col-cate-no{
+    min-width:180px;
+}
+/*
+.ThreeTrees ul ul ul ul .ant-tree-switcher{
+    visibility:hidden;
+}
+*/
+.ThreeTrees>ul>li>span.ant-tree-checkbox,.ThreeTrees>ul>li>ul>li>span.ant-tree-checkbox{
+    display:none;
+}
+.ThreeTrees li span , .selected-tree-nodes li span{
+    font-size: 12px;
+}
+
+.ant-tree li span.ant-tree-switcher.ant-tree-switcher_close:after {
+    font-size: 12px;
+    font-size: 12px\9;
+    -webkit-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+    display: inline-block;
+    font-family: anticon;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\E645";
+    vertical-align: baseline;
+    font-weight: 400;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s,-webkit-transform .3s;
+}
+.ant-tree li span.ant-tree-switcher.ant-tree-switcher_open:after {
+    font-size: 12px;
+    font-size: 12px\9;
+    -webkit-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+    display: inline-block;
+    font-family: anticon;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\E621";
+    vertical-align: baseline;
+    font-weight: 400;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s,-webkit-transform .3s;
+}
+
+@media screen and (max-width:1599px){
+    .cate-div{
+        transform: scale(0.8)
+    }
+}

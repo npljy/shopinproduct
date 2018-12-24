@@ -1,0 +1,17 @@
+.commodityManagement{
+    height: 100% !important;
+    width: 100%;
+}
+.tabs-content{
+    height: 100%;
+    width: 100%;
+}
+.commodityManagement .ant-tabs-content{
+    height: 90%;
+    width: 100%;
+}
+.commodityManagement .ant-tabs{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}

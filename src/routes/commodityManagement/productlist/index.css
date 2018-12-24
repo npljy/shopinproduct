@@ -1,0 +1,95 @@
+.product-list{
+    padding-top: 10px;
+}
+.product-list .text-center img{
+    width: 90px;
+    height: 123px;
+    float: left;
+}
+.text-center div{
+    line-height: 30px;
+}
+.text-center,.ant-table-thead > tr > th {
+    text-align: center;
+}
+.np-pinfo{
+    padding-left: 8px;
+    float: left;
+    text-align: left;
+}
+.np-pinfo p{
+    width: 200px;
+}
+.ant-table-tbody > tr > td{
+    padding: 4px;
+}
+.anticon{
+    width: 20px;
+}
+.np-pinfo input{
+    width: 160px;
+}
+.np-pinfo .anticon{
+    vertical-align: middle;
+}
+.np-pinfo .anticon:before{
+    font-size: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: 4px;
+}
+.other-info{
+    text-align: left;
+}
+.operation a{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.operation span{
+    cursor:pointer;
+}
+
+.product-list>div{
+    width:100%;
+    height:50px;
+    line-height:50px;
+    text-align:right;
+    position:relative;
+    padding-right:10px;
+}
+.product-list .ant-pagination {
+    display: inline-block;
+}
+.to-page-btn{
+    height:50px;
+    line-height:50px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 12px;
+}
+.list-table{
+    height:auto !important;
+    padding-right:0 !important;
+}
+.list-table p{
+    line-height: 30px;
+}
+.product-list .product-list-btn-box{
+    position:absolute;
+    left:0;
+    top:50%;
+    transform:translateY(-50%);
+}
+.product-list .product-list-btn-box .ant-btn{
+    margin-left: 10px;
+}
+.product-list .ant-table-thead > tr > th , .ant-table-placeholder{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.text-time div p{
+    line-height: 20px;
+}
+.product-list .ant-spin-dot i{
+    background-color:#1890ff;
+}   

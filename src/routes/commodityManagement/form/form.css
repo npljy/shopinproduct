@@ -1,0 +1,50 @@
+.ant-form-item{
+    margin-bottom: 0px!important;
+}
+.form-top{
+    margin-top: 10px;
+}
+.form-top .col-center{
+    text-align: center;
+}
+.form-top .col-center .col-center-sp{
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    cursor: pointer;
+    color: blue;
+}
+#hide {
+    display: none!important;
+}
+.col-fotm-item-input-root{
+    position: relative;
+}
+.form-control textarea.ant-input{
+    height: 32px;
+    resize:none;
+}
+.form-control textarea.ant-input::-webkit-scrollbar {
+    width:0px;
+    height:0px;     
+    /* background-color:#d0cdc7; */
+}
+/* .form-control textarea.ant-input::-webkit-scrollbar-track{  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 5px; 
+    background-color:#d0cdc7;
+}
+.form-control textarea.ant-input::-webkit-scrollbar-thumb  {
+    border-radius: 10px;  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+    background-color:#a09d9d;
+} */
+.input-position{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.form-control textarea.input-textArea{
+    height: 74px;
+}
